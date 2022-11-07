@@ -1,0 +1,10 @@
+-Pseudocode for number Doubling program
+
+start
+    get inputNumber
+    while not eof
+        calculatedAnswer = inputNumber * 2
+        print calculatedAnswer;
+        get inputNumber
+    endwhile
+stop 

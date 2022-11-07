@@ -1,0 +1,28 @@
+start
+    read testScore, classRank
+    if testScore >= 90 then
+        if classRank >= 25 then
+            print "Accept"
+        else
+            print "Reject"
+        endif
+    else
+            if testScore >= 80 then
+                if classRank >= 50 then
+                    print "Accept"
+                else
+                    print "Reject"
+                endif
+            else
+                 if testScore >= 70 then
+                     if classRank >= 75 then
+                         print "Accept"
+                    else
+                        print "Reject"
+                    endif
+                 else
+                    print "Reject"
+                endif
+            endif
+    endif
+stop

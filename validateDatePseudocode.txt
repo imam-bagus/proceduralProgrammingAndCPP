@@ -1,0 +1,27 @@
+program determines valid date
+    - user enter year, month, day
+    - valid years are grather than 0
+    - valid months are value 1 through 12
+    - valid days are values 1 through 31
+
+Start
+    num year
+    num month
+    num day
+
+    get year, month, day
+
+    if(year > 0){
+        if(month > 0 AND month <= 12){
+            if(day > 0 AND month <= 31){
+                print "month/day/year is a valid date"
+            }else{
+                print "month/day/year is an invalid date"
+            }
+        }else{
+            print "month/day/year is an invalid date"
+        }
+    }else{
+        print "month/day/year is an invalid date"
+    }
+Stop

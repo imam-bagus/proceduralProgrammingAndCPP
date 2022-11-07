@@ -1,0 +1,16 @@
+start
+    string name
+    num balance
+    get name, balance
+    nameAndAddress()
+    print "Customer Name    : ", name
+    print "Customer Balance : ", balance
+stop
+nameAndAddress()
+    string ADDRESS_LINE1 = "XYZ Manufacturing"
+    string ADDRESS_LINE2 = "Kalimanggis 03/06"
+    string ADDRESS_LINE3 = "Kota Bekasi, Jawa Barat 17435"
+    print ADDRESS_LINE1
+    print ADDRESS_LINE2
+    print ADDRESS_LINE3
+return
