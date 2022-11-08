@@ -1,4 +1,4 @@
--Pseudocode for number Doubling program
+Program for number doubling
 
 start
     get inputNumber

@@ -1,13 +1,10 @@
-/*
-Demonstrates using desicion statement (IF), Relational (comparison) & assigment Operator
-
-Program furniture company for compute price of any table a customer order, based fact
+Program furniture company for compute price of any table a customer order, based fact:
         - charge for all tables is a minimum of $150.00.
         - if surface (length x width) over 750 square inches, add & 50.00.
         - if wood is mahogany, add $200.000; if oak add $100.00; No charge is added for pine
         - For extension leaves for table, there is an additional $50.00 charge each.
 
-input: 
+input
         - costTable (initialized to 0.00) (sample input 150.00)
         - lengthTable (initialized to 50 inches)
         - widthTable (initialized to 40 inches)
@@ -15,11 +12,9 @@ input:
         - woodType (initialized with value "oak")
         - extensionLeaves (initialized with value 2)
 
-Output:
+Output
         - (Sample Output) Print "The charge for this table is $400"
         - Print "The charge for this table is $", costTable
-
-*/
 
 Start
     num costTable = 0.00
@@ -31,27 +26,21 @@ Start
 
     get costTable, lengthTable, widthTable, woodType, extensionLeaves
 
-    if(costTable > 150.00){
-
+    if costTable > 150.00 then
         surfaceAreaOfTable = lengthTable * widthTable
-
-        if(surfaceAreaOfTable > 750){
+        if surfaceAreaOfTable > 750 then
             costTable += 50.00
-        }
-
-        if(woodType == "mahogany"){
+        endif
+        if woodType == "mahogany" then
             costTable += 200.00
-        }
-
-        if(woodType == "oak"){
+        endif
+        if woodType == "oak" then
             costTable += 100.00
-        }
-
-        if(extensionLeaves != 0){
+        endif
+        if  extensionLeaves != 0 then
             costTable += 50.00 * extensionLeaves
-        }
+        endif
+    endif
 
-    }
-
-    Print "The Charge of this table is $", costTable 
+    print "The Charge of this table is $", costTable 
 Stop

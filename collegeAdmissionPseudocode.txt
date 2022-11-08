@@ -1,5 +1,9 @@
 start
+    num testScore
+    num classRank
+
     read testScore, classRank
+    
     if testScore >= 90 then
         if classRank >= 25 then
             print "Accept"

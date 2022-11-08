@@ -11,17 +11,17 @@ Start
 
     get year, month, day
 
-    if(year > 0){
-        if(month > 0 AND month <= 12){
-            if(day > 0 AND month <= 31){
+    if year > 0 then
+        if month > 0 AND month <= 12 then
+            if day > 0 AND month <= 31 then
                 print "month/day/year is a valid date"
-            }else{
+            else
                 print "month/day/year is an invalid date"
-            }
-        }else{
+            endif
+        else
             print "month/day/year is an invalid date"
-        }
-    }else{
+        endif
+    else
         print "month/day/year is an invalid date"
-    }
+    endif
 Stop
