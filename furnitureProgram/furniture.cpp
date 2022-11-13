@@ -5,7 +5,7 @@ Program furniture company for compute price of any table a customer order, based
         - if wood is mahogany, add $200.000; if oak add $100.00; No charge is added for pine
         - For extension leaves for table, there is an additional $50.00 charge each.
 
-input: 
+input:
         - costTable (initialized to 0.00)
         - lengthTable (initialized to 50 inches)
         - widthTable (initialized to 40 inches)
@@ -21,7 +21,8 @@ Output:
 #include <iostream>
 using namespace std;
 
-int main(){
+int main()
+{
 
     float costTable = 0.00;
     int lengthTable = 50;
@@ -35,33 +36,37 @@ int main(){
 
     cout << "Enter a length           : ";
     cin >> lengthTable;
-    
+
     cout << "Enter a width            : ";
     cin >> widthTable;
-    
+
     cout << "Enter a wood type        : ";
     cin >> woodType;
-    
+
     cout << "Enter a extension leaves : ";
     cin >> extensionLeaves;
 
-
-    if(costTable >= 150.00){
+    if (costTable >= 150.00)
+    {
         surfaceAreaOfTable = lengthTable * widthTable;
 
-        if(surfaceAreaOfTable > 750){
-            costTable +=  50.00;
+        if (surfaceAreaOfTable > 750)
+        {
+            costTable += 50.00;
         }
 
-        if(woodType == "mahogany"){
+        if (woodType == "mahogany")
+        {
             costTable += 200.00;
         }
-        
-        if(woodType == "oak"){
+
+        if (woodType == "oak")
+        {
             costTable += 100.00;
         }
 
-        if(extensionLeaves != 0){
+        if (extensionLeaves != 0)
+        {
             costTable += 50.00 * extensionLeaves;
         }
     }

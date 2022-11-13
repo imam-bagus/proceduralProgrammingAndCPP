@@ -1,6 +1,6 @@
 /*
 input
-    Interactive 
+    Interactive
         - input number
 
 process
@@ -24,12 +24,12 @@ int main()
     cout << "Enter a number or enter 0 for stop : ";
     cin >> inputNumber;
 
-    while(inputNumber != 0)
+    while (inputNumber != 0)
     {
         calculatedAnswer = inputNumber * 2;
-        
+
         cout << "Result = " << calculatedAnswer << endl;
-    
+
         cout << "Enter a number or enter 0 for stop : ";
         cin >> inputNumber;
     }

@@ -10,7 +10,7 @@ Process
     - retail price - 15% = sale price
     - sale price - wholesale price = sale profit
 
-output  
+output
     - Item Name (Sample "Dishwasher")
     - Retail Price (sample $425)
     - Wholesale Price ($275)

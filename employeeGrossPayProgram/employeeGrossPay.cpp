@@ -23,7 +23,8 @@ output
 #include <iostream>
 using namespace std;
 
-int main(){
+int main()
+{
 
     int hoursWorked = 45;
     float rate = 15.00;
@@ -32,10 +33,13 @@ int main(){
     const int HOURS_IN_WEEK = 40;
     const float OVERTIME_RATE = 40;
 
-    if(hoursWorked > HOURS_IN_WEEK){
+    if (hoursWorked > HOURS_IN_WEEK)
+    {
         overtime = "Yes";
         grossPay = HOURS_IN_WEEK * rate + (hoursWorked - HOURS_IN_WEEK) * OVERTIME_RATE * rate;
-    }else{
+    }
+    else
+    {
         overtime = "No";
         grossPay = hoursWorked * rate;
     }

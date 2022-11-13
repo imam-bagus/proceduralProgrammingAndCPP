@@ -2,16 +2,16 @@
 program calculates amount tax withheld from employee week salary
 
 input
-    Interactive 
+    Interactive
         - salary
         - dependents
 
 Process:
-    - Calculate state withholding tax 7.0% & calculate federal withholding tax 32.0% 
+    - Calculate state withholding tax 7.0% & calculate federal withholding tax 32.0%
     - Calculate dependent deductions 4.0% of employee salary for each dependent
     - Calculate total withholding (Total withholding is total state withholding combined with total federal withholding)
     - Calculate take-home pay as salary minus total withholding plus deductions
-     
+
 Output:
     - State Tax (sample $66.5)
     - Federal Tax (sample $304)
@@ -46,7 +46,8 @@ int main()
     totalDependents = (salary * percentageDependents) * dependents;
     takeHomePay = salary - stateTax - federalTax + totalDependents;
 
-    cout << "\n" << "State Tax     : $" << stateTax << endl;
+    cout << "\n"
+         << "State Tax     : $" << stateTax << endl;
     cout << "Federal Tax   : $" << federalTax << endl;
     cout << "Dependents    : $" << totalDependents << endl;
     cout << "Salary        : $" << salary << endl;

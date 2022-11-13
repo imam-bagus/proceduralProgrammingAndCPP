@@ -2,13 +2,13 @@
 Program convert Farenheit to Celcius
 
 input
-    - Interactive
-        farenheit
+    Interactive
+        - farenheit
 
 process
     - (Farenheit − 32) x (5/9) = celcius
 
-Output 
+Output
     - Farenheit temperatur
     - Celcius temperature
 */
@@ -25,7 +25,7 @@ int main()
     cout << "Enter Farenheit temperature : ";
     cin >> farenheit;
 
-    celcius = (farenheit - 32.0) * (5.0/9.0);
+    celcius = (farenheit - 32.0) * (5.0 / 9.0);
 
     cout << "Farenheit temperature : " << farenheit << endl;
     cout << "Celcius temperature   : " << celcius << endl;

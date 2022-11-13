@@ -2,12 +2,9 @@
 program determines valid date
 
 Input
-    - interactive 
-        month
-        day
-        year
+    - interactive month, day, year
 
-Process : 
+Process :
     - valid years are grather than 0
     - valid months are value 1 through 12
     - valid days are values 1 through 31
@@ -27,25 +24,34 @@ int main()
     int day;
     int year;
 
-    cout << "\n" << "Enter a month : ";
+    cout << "\n"
+         << "Enter a month : ";
     cin >> month;
     cout << "Enter a day    : ";
     cin >> day;
     cout << "Enter a year : ";
     cin >> year;
 
-    if(year > 0){
-        if(month > 0 & month <= 12){
-            if(day > 0 & day <= 31){
+    if (year > 0)
+    {
+        if (month > 0 & month <= 12)
+        {
+            if (day > 0 & day <= 31)
+            {
                 cout << month << "/" << day << "/" << year << " is a valid date";
-            
-            }else{
+            }
+            else
+            {
                 cout << month << "/" << day << "/" << year << " is an invalid date";
             }
-        }else{
+        }
+        else
+        {
             cout << month << "/" << day << "/" << year << " is an invalid date";
         }
-    }else{
+    }
+    else
+    {
         cout << month << "/" << day << "/" << year << " is an invalid date";
     }
 

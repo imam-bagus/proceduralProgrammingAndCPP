@@ -8,7 +8,6 @@ input
         - costTable (initialized to 0.00) (sample input 150.00)
         - lengthTable (initialized to 50 inches)
         - widthTable (initialized to 40 inches)
-        - surfaceAreaOfTable
         - woodType (initialized with value "oak")
         - extensionLeaves (initialized with value 2)
 
@@ -20,9 +19,9 @@ Start
     num costTable = 0.00
     num lengthTable = 50
     num widthTable = 40
-    num surfaceAreaOfTable
     string woodType = "oak"
     num extensionLeaves = 2
+    num surfaceAreaOfTable
 
     get costTable, lengthTable, widthTable, woodType, extensionLeaves
 

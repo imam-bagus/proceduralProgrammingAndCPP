@@ -5,10 +5,10 @@ input
     - min
     - max
 
-process 
+process
     - if min % 13 = 0
 
-output 
+output
     - min
 */
 
@@ -21,8 +21,10 @@ int main()
     int minNumber = 0;
     int maxNumber = 100;
 
-    while(minNumber <= maxNumber){
-        if(minNumber % 13 == 0){
+    while (minNumber <= maxNumber)
+    {
+        if (minNumber % 13 == 0)
+        {
             cout << minNumber << endl;
         }
 
