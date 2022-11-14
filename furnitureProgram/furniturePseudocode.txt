@@ -1,19 +1,24 @@
-Program furniture company for compute price of any table a customer order, based fact:
-        - charge for all tables is a minimum of $150.00.
+/*
+Demonstrate using decision (IF) statement
+
+Program furniture company for compute price of any table a customer order, based fact
+        - charge for all tables is a minimum of $150.000.
         - if surface (length x width) over 750 square inches, add & 50.00.
         - if wood is mahogany, add $200.000; if oak add $100.00; No charge is added for pine
         - For extension leaves for table, there is an additional $50.00 charge each.
 
-input
-        - costTable (initialized to 0.00) (sample input 150.00)
+input:
+        - costTable (initialized to 0.00)
         - lengthTable (initialized to 50 inches)
         - widthTable (initialized to 40 inches)
+        - surfaceAreaOfTable
         - woodType (initialized with value "oak")
         - extensionLeaves (initialized with value 2)
 
-Output
-        - (Sample Output) Print "The charge for this table is $400"
-        - Print "The charge for this table is $", costTable
+Output:
+        - Print "The charge for this table is $400"
+
+*/
 
 Start
     num costTable = 0.00

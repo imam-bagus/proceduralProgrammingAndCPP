@@ -1,16 +1,10 @@
 /*
+Demonstrate modular program
 program for print company name & address and print customer name & balance
 
-input
-    interactive
-        - name
-        - balance
+input  : interactive name ,balance
 
-output
-    - customer name
-    - cusotomer balance
-    - company name
-    - company address
+output : customer name, cusotomer balance, company name, company address
 */
 
 #include <iostream>

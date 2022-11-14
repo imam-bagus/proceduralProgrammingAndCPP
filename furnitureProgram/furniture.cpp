@@ -1,4 +1,6 @@
 /*
+Demonstrate using decision (IF) statement
+
 Program furniture company for compute price of any table a customer order, based fact
         - charge for all tables is a minimum of $150.000.
         - if surface (length x width) over 750 square inches, add & 50.00.

@@ -1,15 +1,12 @@
 /*
+Demonstrates using Comments
 program for finds sum of numbers from 0 to 100 are divisible by 13
 
-input
-    - min
-    - max
+input   : min, max
 
-process
-    - if min % 13 = 0
+process : if min % 13 = 0
 
-output
-    - min
+output  : min
 */
 
 #include <iostream>

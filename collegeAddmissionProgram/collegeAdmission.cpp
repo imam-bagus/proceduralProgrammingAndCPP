@@ -1,13 +1,10 @@
 /*
+Demonstrates using flowchart & Pseudocode
 Program college admission for determine accept or reject student based on test score & class rank
 
-input
-    interactive
-        - test score
-        - class rank
+input : interactive test score, class rank
 
-Output
-    - print "accept" or "reject"
+Output : print "accept" or "reject"
 */
 
 #include <iostream>

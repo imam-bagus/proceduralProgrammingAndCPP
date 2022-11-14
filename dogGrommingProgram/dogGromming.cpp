@@ -1,4 +1,5 @@
 /*
+Demonstrates using desicion (Nested IF) Statement
 program calculate total charge for services rendered to Woof Wash dog-grooming business
     - Woof Wash charges $30 for bath, $20 for a cut, $15 to clip nails
 

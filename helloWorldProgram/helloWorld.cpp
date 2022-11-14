@@ -1,5 +1,6 @@
 /*
-Program Output text "hello world" on console"
+Demonstrates basic writing, compiling & executing
+Program Output text on console
 */
 
 #include <iostream>

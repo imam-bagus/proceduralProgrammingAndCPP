@@ -1,4 +1,5 @@
 /*
+Demonstrates using desicion (IF ELSE) Statement
 program calculates employee's gross pay
 
 input

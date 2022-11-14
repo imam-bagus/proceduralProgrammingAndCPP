@@ -1,16 +1,12 @@
 /*
+Demonstrates interactive input.
 Program convert Farenheit to Celcius
 
-input
-    Interactive
-        - farenheit
+input: Interactive farenheit
 
-process
-    - (Farenheit − 32) x (5/9) = celcius
+process : (Farenheit − 32) x (5/9) = celcius
 
-Output
-    - Farenheit temperatur
-    - Celcius temperature
+Output : Farenheit temperatur, Celcius temperature
 */
 
 #include <iostream>

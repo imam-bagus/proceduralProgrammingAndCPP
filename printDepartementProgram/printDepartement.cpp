@@ -1,4 +1,5 @@
 /*
+Demonstrates using desicion (Switch) Statement
 program print departement name
 */
 #include <iostream>

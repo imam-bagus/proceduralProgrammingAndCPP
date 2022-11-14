@@ -1,5 +1,6 @@
 /*
-program for introduction myself
+Demonstrates basic writing, compiling & executing
+Program for Output text on console
 */
 
 #include <iostream>

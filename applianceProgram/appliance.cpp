@@ -1,4 +1,13 @@
 /*
+Demonstrates variables & operators.
+program for appliance company
+    - prints name appliance
+    - retail price
+    - wholesale price
+    - profit made on appliance
+    - sale price
+    - profit made total sale
+
 input
     - Item Name (sample "Dishwasher")
     - Retail Price (sample $425)

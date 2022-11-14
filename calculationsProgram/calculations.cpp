@@ -1,7 +1,9 @@
 /*
-program demonstrates
+demonstrates
     - Operator (arithmetic & assigment)
     - Precedence & associativity
+
+program for calculations number
 */
 
 #include <iostream>

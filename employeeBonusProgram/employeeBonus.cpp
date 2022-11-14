@@ -1,4 +1,5 @@
 /*
+Demonstrates using desicion (Nested IF) Statement
 program that calculates an employee’s end-of-year bonus
     - prints employee’s name, yearly salary, performance rating, and bonus
     - Bonuses calculated based employee annual salary and performance rating

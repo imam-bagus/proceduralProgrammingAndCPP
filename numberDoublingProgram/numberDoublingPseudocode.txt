@@ -1,4 +1,13 @@
-Program for number doubling
+/*
+Demonstrates using Comments
+number-doubling program
+
+input   : Interactive input number
+
+process : number x 2 = answer, check want calculate again or stop by input 0
+
+output  : print answer
+*/
 
 start
     get inputNumber

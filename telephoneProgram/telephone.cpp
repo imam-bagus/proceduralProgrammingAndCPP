@@ -1,4 +1,5 @@
 /*
+Demonstrates using desicion (IF ELSE) Statement
 Program calculate customer charges for telephone company
     - All calls are 20 cents per minute
     - plus charges 15 cents per minute for calls outside of customer area code that last over 20 minutes
