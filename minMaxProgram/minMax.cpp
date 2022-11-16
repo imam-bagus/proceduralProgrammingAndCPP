@@ -1,4 +1,5 @@
 /*
+Demonstrates using array and loop for find max & min number
 program find max and min value
 */
 

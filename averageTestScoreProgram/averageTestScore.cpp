@@ -1,4 +1,5 @@
 /*
+demonstrates accumulating number using Loop (FOR)
 program calculates average test score given individual
 */
 
