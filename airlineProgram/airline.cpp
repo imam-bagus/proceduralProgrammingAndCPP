@@ -7,7 +7,6 @@ program for airline
 input   : passenger name & age
 
 Output  : passenger name , age & eligible or not
-
 */
 
 #include <iostream>
